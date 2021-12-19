@@ -55,8 +55,6 @@ namespace IA_TP05_6
 
             Console.WriteLine("Solución encontrada en " + cantidadDePasos + " pasos con los pesos: ");
             Escribir(padre1.ObtenerPesos());
-            Console.Write("Cuadrante: ");
-            Escribir(padre1.Ejecutar(punto[0], punto[1]));
             Console.ReadLine();
         }
 

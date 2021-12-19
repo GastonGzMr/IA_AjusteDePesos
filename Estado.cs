@@ -52,23 +52,6 @@ namespace IA_TP05_6
 
         public Estado(Estado padre1, Estado padre2)
         {
-            /*PesoEntrada11 = padre1.PesoEntrada11;
-            PesoEntrada12 = padre1.PesoEntrada12;
-
-            PesoEntrada21 = padre2.PesoEntrada21;
-            PesoEntrada22 = padre2.PesoEntrada22;
-
-            PesoOculta11 = padre2.PesoOculta11;
-            PesoOculta12 = padre2.PesoOculta12;
-
-            PesoOculta21 = padre1.PesoOculta21;
-            PesoOculta22 = padre1.PesoOculta22;
-
-            PesoSalida11 = padre1.PesoSalida11;
-            PesoSalida12 = padre1.PesoSalida12;
-
-            PesoSalida21 = padre2.PesoSalida21;
-            PesoSalida22 = padre2.PesoSalida22;*/
             PesoEntrada11 = (padre1.PesoEntrada11 + padre2.PesoEntrada11) / 2;
             PesoEntrada12 = (padre1.PesoEntrada12 + padre2.PesoEntrada12) / 2;
 
